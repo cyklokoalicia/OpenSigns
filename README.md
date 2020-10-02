@@ -51,8 +51,7 @@
 1. Clone this repository. \
 `git clone https://github.com/Jozko55/bike_signs_detection.git`
 
-1. Download the model separately. \
-`https://github.com/Jozko55/bike_signs_detection/blob/master/resnet50_final.h5` \
+1. Download the [model](https://github.com/Jozko55/bike_signs_detection/blob/master/resnet50_final.h5) separately. \
 You may need to adjust `PATH_TO_MODEL` in `script.py`.
 
 
