@@ -1,4 +1,4 @@
-# bike_signs_detection
+# OpenSigns
 
 ## Installation
 
@@ -48,10 +48,12 @@
 1. Install exiftool. \
 `sudo apt-get install exiftool`
 
-1. Make sure that you have installed and you use [git lfs](https://git-lfs.github.com/). Without this you will not be able to download the resnet model in the next step. (You can avoid this step by downloading the file resnet50_final model separately.)
-
 1. Clone this repository. \
 `git clone https://github.com/Jozko55/bike_signs_detection.git`
+
+1. Download the model separately. \
+`https://github.com/Jozko55/bike_signs_detection/blob/master/resnet50_final.h5` \
+You may need to adjust `PATH_TO_MODEL` in `script.py`.
 
 
 ## Usage
